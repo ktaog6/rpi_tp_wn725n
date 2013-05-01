@@ -90,7 +90,7 @@ fi
 
 cd $HomeDir || exit 1
 
-curl -O https://github.com/ktaog6/rpi_tp_wn725n/blob/master/rpi/output/8188eu.ko
+curl -O https://raw.github.com/ktaog6/rpi_tp_wn725n/master/rpi/output/8188eu.ko
 \cp -a 8818eu.ko /lib/modules/`uname -r`/kernel/net/wireless/
 depmod
 modprobe 8188eu

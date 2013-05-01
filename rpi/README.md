@@ -1,7 +1,7 @@
 This is use for make driver of TP-Link WN725N  
 
 INSTALL  
-1 curl -O https://raw.github.com/ktaog6/rpi_tp_wn725n/master/tp_wn725n_driver-1.0.0-1.rpi.noarch.sh  
+1 curl -O https://github.com/ktaog6/rpi_tp_wn725n/blob/master/rpi/tp_wn725n_driver-1.0.0-1.rpi.noarch.sh  
 2 sh tp_wn725n_driver-1.0.0-1.rpi.noarch.sh  
 3 reboot  
 After reboot ,your "TP-Link WN725N" can work now.  
